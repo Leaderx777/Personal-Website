@@ -1,0 +1,35 @@
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Archives and compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Logs
+*.log
+
+# Python cache (if you test scripts locally)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node / npm (if you experiment with JS frameworks)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+dist/
+build/
+out/
+Add .gitignore to keep repo clean
